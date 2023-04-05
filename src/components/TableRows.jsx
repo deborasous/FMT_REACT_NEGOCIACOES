@@ -6,7 +6,6 @@ function emReais(price) {
 }
 export const TableRows = ({ trade }) => {
   const { date, amount, price } = trade;
-
   return (
     <>
       <tr>

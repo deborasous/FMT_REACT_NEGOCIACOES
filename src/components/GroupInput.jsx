@@ -25,7 +25,7 @@ GroupInput.propTypes = {
   id: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
-  valor: PropTypes.string.isRequired,
+  valor: PropTypes.number.isRequired,
   min: PropTypes.number,
   step: PropTypes.number,
   modify: PropTypes.func.isRequired,
